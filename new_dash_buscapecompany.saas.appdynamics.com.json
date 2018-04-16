@@ -1,0 +1,1519 @@
+{
+    "associatedEntityTemplates": null, 
+    "backgroundColor": 15395562, 
+    "canvasType": "CANVAS_TYPE_GRID", 
+    "color": 15395562, 
+    "dashboardFormatVersion": "4.0", 
+    "description": null, 
+    "endDate": null, 
+    "height": 768, 
+    "layoutType": "", 
+    "minutesBeforeAnchorTime": -1, 
+    "name": "JVM", 
+    "properties": null, 
+    "refreshInterval": 120000, 
+    "schemaVersion": null, 
+    "startDate": null, 
+    "template": false, 
+    "templateEntityType": "APPLICATION_COMPONENT_NODE", 
+    "warRoom": false, 
+    "widgetTemplates": [
+        {
+            "axisType": "LINEAR", 
+            "backgroundAlpha": 1, 
+            "backgroundColor": 16777215, 
+            "backgroundColors": null, 
+            "backgroundColorsStr": "16777215,16777215", 
+            "borderColor": 14408667, 
+            "borderEnabled": false, 
+            "borderThickness": 0, 
+            "color": 4210752, 
+            "compactMode": false, 
+            "customVerticalAxisMax": 100, 
+            "customVerticalAxisMin": null, 
+            "dataSeriesTemplates": [
+                {
+                    "applicationName": "<BONDFARO>", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "<BONDFARO>", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "<BONDFARO>", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "API-GATEWAY", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "API-GATEWAY", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "API-GATEWAY", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "ARCHIMEDES", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "ARCHIMEDES", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "ARCHIMEDES", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "BONDFARO", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "BONDFARO", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "BONDFARO", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "CANONICA", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "CANONICA", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "CANONICA", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "CCC", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "CCC", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "CCC", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "CONDICAO-COMERCIAL", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "CONDICAO-COMERCIAL", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "CONDICAO-COMERCIAL", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "CONFIG-SERVICE", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "CONFIG-SERVICE", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "CONFIG-SERVICE", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "DECKARD", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "DECKARD", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "DECKARD", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "DISCOVERY-SERVICE", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "DISCOVERY-SERVICE", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "DISCOVERY-SERVICE", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "DUMBLEDORE", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "DUMBLEDORE", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "DUMBLEDORE", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "EXTERNAL-LINKS", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "EXTERNAL-LINKS", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "EXTERNAL-LINKS", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "GALILEO", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "GALILEO", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "GALILEO", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "GENIE", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "GENIE", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "GENIE", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "INBOX", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "INBOX", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "INBOX", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "INTEGRACAO-CRM", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "INTEGRACAO-CRM", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "INTEGRACAO-CRM", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "IRIS", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "IRIS", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "IRIS", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "JJ-JAMESON", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "JJ-JAMESON", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "JJ-JAMESON", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "JUBA", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "JUBA", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "JUBA", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "LOIS-LANE", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "LOIS-LANE", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "LOIS-LANE", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "MAXIMUS", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "MAXIMUS", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "MAXIMUS", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "MAXIMUS-JUBA", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "MAXIMUS-JUBA", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "MAXIMUS-JUBA", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "MBACKSTAGE", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "MBACKSTAGE", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "MBACKSTAGE", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "MBWS", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "MBWS", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "MBWS", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "MBWS-LOGGER", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "MBWS-LOGGER", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "MBWS-LOGGER", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "MOBILE-API-GATEWAY", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "MOBILE-API-GATEWAY", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "MOBILE-API-GATEWAY", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "MOBILE-DISCOVERY-SERVICE", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "MOBILE-DISCOVERY-SERVICE", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "MOBILE-DISCOVERY-SERVICE", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "MUTHUR-6000", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "MUTHUR-6000", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "MUTHUR-6000", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "MyApp", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "MyApp", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "MyApp", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "NOSTROMO", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "NOSTROMO", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "NOSTROMO", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "ORDER", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "ORDER", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "ORDER", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "PRICE-HISTORY", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "PRICE-HISTORY", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "PRICE-HISTORY", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "RIDLEY", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "RIDLEY", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "RIDLEY", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "SHELDON", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "SHELDON", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "SHELDON", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "TARDIS", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "TARDIS", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "TARDIS", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "TARDIS-JOB", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "TARDIS-JOB", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "TARDIS-JOB", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "THALES", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "THALES", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "THALES", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "TROPOS", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "TROPOS", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "TROPOS", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "TYCHE", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "TYCHE", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "TYCHE", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "TYRELL", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "TYRELL", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "TYRELL", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }, 
+                {
+                    "applicationName": "VOGUE", 
+                    "axisPosition": "LEFT", 
+                    "colorPalette": null, 
+                    "metricMatchCriteriaTemplate": {
+                        "applicationName": "VOGUE", 
+                        "baselineName": null, 
+                        "entityMatchCriteria": {
+                            "agentTypes": null, 
+                            "entityType": "APPLICATION_COMPONENT_NODE", 
+                            "matchCriteriaType": "AllEntities", 
+                            "summary": false
+                        }, 
+                        "evaluationScopeType": null, 
+                        "expressionString": "", 
+                        "maxResults": 20, 
+                        "metricDisplayNameCustomFormat": "${e}", 
+                        "metricDisplayNameStyle": "DISPLAY_STYLE_CUSTOM", 
+                        "metricExpressionTemplate": {
+                            "displayName": "null", 
+                            "functionType": "VALUE", 
+                            "inputMetricPath": null, 
+                            "inputMetricText": false, 
+                            "metricExpressionType": "Logical", 
+                            "relativeMetricPath": "JVM|Memory:Heap|Used %"
+                        }, 
+                        "rollupMetricData": false, 
+                        "sortResultsAscending": false, 
+                        "useActiveBaseline": false
+                    }, 
+                    "metricType": "INFRASTRUCTURE", 
+                    "name": "VOGUE", 
+                    "seriesType": "LINE", 
+                    "showRawMetricName": false
+                }
+            ], 
+            "description": null, 
+            "drillDownActionType": null, 
+            "drillDownUrl": null, 
+            "endTime": null, 
+            "eventFilterTemplate": null, 
+            "fontSize": 12, 
+            "formatNumber": null, 
+            "height": 5, 
+            "hideHorizontalAxis": null, 
+            "horizontalAxisLabel": null, 
+            "interpolateDataGaps": false, 
+            "isGlobal": true, 
+            "label": null, 
+            "legendColumnCount": 7, 
+            "legendPosition": "POSITION_BOTTOM", 
+            "minHeight": 0, 
+            "minWidth": 0, 
+            "minutesBeforeAnchorTime": 15, 
+            "multipleYAxis": null, 
+            "numDecimals": 0, 
+            "propertiesMap": null, 
+            "removeZeros": null, 
+            "renderIn3D": false, 
+            "showAllTooltips": null, 
+            "showEvents": null, 
+            "showLegend": true, 
+            "showTimeRange": false, 
+            "showValues": false, 
+            "stackMode": null, 
+            "startTime": null, 
+            "staticThresholdList": [
+                {
+                    "color": 16711680, 
+                    "name": "90%", 
+                    "value": 90
+                }
+            ], 
+            "title": "Heap Used %", 
+            "useAutomaticFontSize": false, 
+            "useMetricBrowserAsDrillDown": true, 
+            "verticalAxisLabel": null, 
+            "widgetType": "GraphWidget", 
+            "width": 12, 
+            "x": 0, 
+            "y": 0
+        }
+    ], 
+    "width": 1024
+}
